@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto, Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+
+nav .set{
+    display: flex;
+    align-items: center;
+}
+
+.menuico span{
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.menuico h1{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 28px;
+}
+
+.menuico span{
+    margin: 10px;
+}
+
+.search input{
+    width: 40vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    font-size: 15px;
+    outline: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.search button{
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 5px 14px; 
+    margin-right: 18px;
+    border-radius: 0 3px 3px 0;
+}
+
+.search button span{
+    font-size: 24px;
+}
+
+.search .mic{
+    font-size: 24px;
+    background: #f9f9f9;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.profile span{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.main_div{
+    display: flex;
+    height: 100vh;
+}
+
+.right_menu{
+    width: 18%;
+    overflow: auto;
+}
+
+.left_menu{
+    width: 83%;
+    background: #f9f9f9;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.right_menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.alignment{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    padding: 7px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.alignment h2{
+    display: flex;
+    align-items: center;
+    padding: 8px 22px;
+}
+
+.active{
+    background: #e5e5e5;
+}
+
+.alignment span{
+    margin-right: 1.5rem;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1111118c; 
+    border-radius: 10px;
+  }
+
+  .video_card{
+    width: 18rem;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .video_card img{
+    width: 100%;
+  }
+
+  .video_info{
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .video_info img{
+    width: 50px;
+    padding: 0.7rem;
+    border-radius: 70px;
+  }
+
+  .v_desc{
+    padding: 0.7rem;
+  }
+
+  .v_desc h4{
+    margin-bottom: 10px;
+  }
+
+  .all_contain{
+    display: flex;
+  }
